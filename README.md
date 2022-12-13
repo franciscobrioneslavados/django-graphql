@@ -9,6 +9,7 @@ pip install django
 pip install graphene-django
 pip install django-filter
 pip install django-graphql-jwt
+pip install django-environ
 ```
 ### Create a django projects call core and runs migrations
 ```
@@ -17,10 +18,15 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### Create a new APP... create a folders before
+### Create a new APP... create a folders before
 ```
 python manage.py startapp users core/apps/users 
 python manage.py makemigrations users
 python manage.py makemigrations
 python manage.py migrate users
+```
+
+### Run Server
+```
+python manage.py runserver
 ```
