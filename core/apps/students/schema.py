@@ -20,7 +20,7 @@ class CoursePerStudentType(DjangoObjectType):
         model = CoursePerStudent
  
 class Query(graphene.ObjectType):
-    student = graphene.List(StudentType)
+    students = graphene.List(StudentType)
     grades = graphene.List(GradeType)
     courses = graphene.List(CourseType)
     courses_per_students = graphene.List(CoursePerStudentType)

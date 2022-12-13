@@ -18,6 +18,11 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+### Create a Super User
+```
+python manage.py createsuperuser
+```
+
 ### Create a new APP... create a folders before
 ```
 python manage.py startapp students core/apps/students 

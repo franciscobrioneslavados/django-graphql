@@ -1,6 +1,6 @@
 import graphene
 
-from core.apps.users import schema
+from core.apps.students import schema
 
 class Query(schema.Query, graphene.ObjectType):
     pass
