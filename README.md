@@ -20,10 +20,10 @@ python manage.py migrate
 
 ### Create a new APP... create a folders before
 ```
-python manage.py startapp users core/apps/users 
-python manage.py makemigrations users
+python manage.py startapp students core/apps/students 
+python manage.py makemigrations students
 python manage.py makemigrations
-python manage.py migrate users
+python manage.py migrate students
 ```
 
 ### Run Server
